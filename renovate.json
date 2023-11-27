@@ -19,8 +19,10 @@
   ],
   "packageRules": [
     {
-      "description": "Bump CNV Components",
-      "matchPackageNames": ["kubevirt/containerized-data-importer"],
+      "description": "CDI",
+      "matchPackageNames": [
+        "kubevirt/containerized-data-importer"
+      ],
       "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<prerelease>.*))?$",
       "groupName": null
     },
