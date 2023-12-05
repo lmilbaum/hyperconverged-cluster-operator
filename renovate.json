@@ -27,18 +27,25 @@
       "groupName": null
     },
     {
-       "description": "Group GitHub Actions dependencies",
+       "description": "Group GitHub Actions updates",
        "matchManagers": [ "github-actions" ],
        "groupName": "github-actions",
        "pinDigests": false
     },
     {
-       "description": "Group pip requirements dependencies",
+       "description": "Group pip requirements updates",
        "matchManagers": [ "pip_requirements" ],
        "groupName": "pip_requirements"
     },
     {
-       "description": "Group dockerfile dependencies",
+      "description": "Group go updates",
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["major", "minor", "patch", "digest", "indirect"],
+      "groupName": "go updates",
+      "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"]
+    },
+    {
+       "description": "Group dockerfile updates",
        "matchManagers": [ "dockerfile" ],
        "excludePackageNames": ["docker.io/golang"],
        "groupName": "dockerfile"
