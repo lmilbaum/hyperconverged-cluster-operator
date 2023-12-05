@@ -47,7 +47,7 @@
       "matchPackagePatterns": ["docker.io/golang"],
       "matchDepTypes": ["patch", "digest"],
       "groupName": "dockerfile"
-    }
+    },
     {
       "matchPackagePatterns": ["docker.io/golang"],
       "matchDepTypes": ["major", "minor"],
