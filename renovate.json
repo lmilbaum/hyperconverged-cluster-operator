@@ -40,6 +40,7 @@
     {
        "description": "Group dockerfile dependencies",
        "matchManagers": [ "dockerfile" ],
+       "excludePackageNames": ["docker.io/golang"],
        "groupName": "dockerfile"
     },
     {
