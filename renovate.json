@@ -51,17 +51,9 @@
        "groupName": "dockerfile"
     },
     {
-      "matchPackagePatterns": ["docker.io/golang"],
-      "matchDepTypes": ["patch", "digest"],
-      "separateMinorPatch": true,
-      "groupName": "dockerfile"
-    },
-    {
-      "matchPackagePatterns": ["docker.io/golang"],
-      "matchDepTypes": ["major", "minor"],
-      "separateMinorPatch": true,
+      "matchPackagePatterns": ["docker.io/golang", "go"],
       "dependencyDashboardApproval": true,
-      "groupName": null
+      "groupName": "golang"
     }
   ]
 }
