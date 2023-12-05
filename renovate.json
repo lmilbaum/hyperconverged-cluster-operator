@@ -47,6 +47,6 @@
       "matchDepTypes": ["major", "minor"],
       "dependencyDashboardApproval": true,
       "groupName": null
-    },
+    }
   ]
 }
