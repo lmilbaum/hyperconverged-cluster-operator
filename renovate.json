@@ -38,14 +38,15 @@
        "groupName": "pip_requirements"
     },
     {
-      "matchPackagePatterns": ["docker.io/golang"],
-      "dependencyDashboardApproval": true,
-      "groupName": null
-    },
-    {
        "description": "Group dockerfile dependencies",
        "matchManagers": [ "dockerfile" ],
        "groupName": "dockerfile"
-    }
+    },
+    {
+      "matchPackagePatterns": ["docker.io/golang"],
+      "matchDepTypes": ["major", "minor"],
+      "dependencyDashboardApproval": true,
+      "groupName": null
+    },
   ]
 }
