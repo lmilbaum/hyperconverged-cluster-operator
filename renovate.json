@@ -51,7 +51,7 @@
        "groupName": "dockerfile"
     },
     {
-      "matchPackagePatterns": ["docker.io/golang", "go"],
+      "matchPackageNames": ["docker.io/golang", "go"],
       "dependencyDashboardApproval": true,
       "groupName": "golang"
     }
