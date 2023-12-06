@@ -56,7 +56,7 @@
       "groupName": null
     },
     {
-      "matchPackageNames": ["quay.io/centos/centos"],
+      "matchPackageNames": ["centos"],
       "pinDigests": false,
       "groupName": null
     }
