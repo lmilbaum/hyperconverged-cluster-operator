@@ -54,6 +54,10 @@
       "matchPackageNames": ["docker.io/golang"],
       "dependencyDashboardApproval": true,
       "groupName": null
+    },
+    {
+      "matchPackageNames": ["quay.io/centos/centos"],
+      "pinDigests": false
     }
   ]
 }
