@@ -40,7 +40,7 @@
     {
       "description": "Group go updates",
       "matchManagers": ["gomod"],
-      "matchUpdateTypes": ["major", "minor", "patch", "digest", "indirect", "replace"],
+      "matchUpdateTypes": ["major", "minor", "patch", "digest", "indirect"],
       "groupName": "go updates",
       "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"]
     },
