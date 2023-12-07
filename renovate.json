@@ -38,9 +38,13 @@
        "groupName": "pip_requirements"
     },
     {
-      "description": "Group go updates",
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
+      "enabled": true
+    },
+    {
+      "description": "Group go updates",
+      "matchManagers": ["gomod"],
       "groupName": "go updates",
       "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"]
     },
